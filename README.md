@@ -17,11 +17,11 @@
 	- https://ipfs.github.io/public-gateway-checker/
 	- note: ipfs-http-client api used in this video out of date
 
-# IPFS: Browser Connectivity Walkthrough
+### IPFS: Browser Connectivity Walkthrough
 	- https://www.youtube.com/watch?v=xZiN9dLvMoU
 	- https://github.com/TheDiscordian/browser-ipfs-chat
 
-# Connecting to web3 in a web app
+### Connecting to web3 in a web app
 	- https://docs.metamask.io/guide
 	- https://reactjs.org/docs/state-and-lifecycle.html
 	- https://www.npmjs.com/package/@metamask/detect-provider
