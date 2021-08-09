@@ -4,7 +4,7 @@ import { Button, Form } from 'react-bootstrap';
 import { Contract } from 'ethers'
 import defaultProfilePic from '../../images/defaultProfilePic.jpg';
 import UserProfileContract from '../../contracts/UserProfile.json';
-const UserProfileContractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+const UserProfileContractAddress = "0x8506a43ecf67C14817FbC935b218339d5c90f5b6"; //address on polygon mainnet
 
 
 const ProfileView = () => {
