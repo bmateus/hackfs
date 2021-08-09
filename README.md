@@ -1,50 +1,31 @@
-# Learning IPFS (and ReactJS)
+# HackFS: Learning IPFS (and ReactJS)
 
-## Learning Resources:
+This is a project for EthGlobal HackFS 2021 that I put together to learn about IPFS, ReactJS and the process of creating and deploying a smart contract and Dapp. The idea is:
 
-### IPFS Docs
-	- CIDs: https://docs.ipfs.io/concepts/content-addressing/
-
-### Proto School
-	- https://proto.school/content-addressing/02
-
-### How to Build Ethereum Dapp With IPFS - Blockchain Programming Tutorial
-	- https://www.youtube.com/watch?v=pTZVoqBUjvI
-	- https://github.com/dappuniversity/meme_of_the_day
-	- https://github.com/dappuniversity/starter_kit
-	- https://www.npmjs.com/package/ipfs-http-client
-	- https://docs.ipfs.io/concepts/ipfs-gateway/#gateway-providers
-	- https://ipfs.github.io/public-gateway-checker/
-	- note: ipfs-http-client api used in this video out of date
-
-### IPFS: Browser Connectivity Walkthrough
-	- https://www.youtube.com/watch?v=xZiN9dLvMoU
-	- https://github.com/TheDiscordian/browser-ipfs-chat
-
-### Connecting to web3 in a web app
-	- https://docs.metamask.io/guide
-	- https://reactjs.org/docs/state-and-lifecycle.html
-	- https://www.npmjs.com/package/@metamask/detect-provider
-	- https://github.com/web3modal/web3modal
-	- https://github.com/NoahZinsmeister/web3-react/tree/v6/docs
-	- https://consensys.net/blog/developers/how-to-fetch-and-update-data-from-ethereum-with-react-and-swr/
-
-## Idea:
-
-Simple smart contract that creates a *unique* non-transferrable NFT for a wallet address that can save profile information
+Create a simple smart contract that can save profile information for a target wallet address. The profile info would include:
 - a profile image that links to an IPFS CID
 - a profile name 
-- additional profile info (statu, description, whatever)
+- additional profile info (status, description, whatever)
 
-User can interact with the profile smart contract from a web app that allows
-	- create a profile NFT
-	- uploading an image to IPFS and returns a CID
-	- set other profile info
-	- "save" the changes to their profile NFT
+Users can interact with the profile smart contract from a dapp that allows:
+	- creating a profile
+	- uploading an image to IPFS and returning a CID
+	- setting other profile info
+	- saving the changes to the blockchain
 
-Another app that searches for a profile NFT and uses it to display the users profile:
-A twitter-like messaging app:
+Additionally, I'd like to create another app that utilizes a wallet's on-chain profile info like a simple twitter-like messaging app that:
 	- displays the user's profile info
 	- allows the user to post a message, saving it in ipfs, and saving the CID in a smart contract (the user's message feed)
 
 - Both web apps will be hosted on IPFS
+
+- The project is deployed on Polygon:
+
+Profile Contract Address:
+0x8506a43ecf67C14817FbC935b218339d5c90f5b6
+https://polygonscan.com/address/0x8506a43ecf67c14817fbc935b218339d5c90f5b6
+
+Profile Dapp:
+https://divine-bread-9247.on.fleek.co/
+
+
