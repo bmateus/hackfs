@@ -24,9 +24,20 @@
   color: white;
 }
 
+.App-title {
+  background-color: #282c34;
+  min-height: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .App-body {
   background-color: #282c34;
-  min-height: 92vh;
+  min-height: 76vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,9 +57,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.Connect-Wallet-Button {
-  text-align: right;
-  float: right;
 }
